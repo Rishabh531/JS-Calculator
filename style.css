@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Caveat&family=EB+Garamond&family=Mochiy+Pop+One&family=Roboto+Slab:wght@300&family=Rubik:wght@500&display=swap");
+
+body {
+  background: #7ec4cf;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  color: #0e0e52;
+  font-size: 40px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 350px;
+  height: 460px;
+  margin: auto;
+  box-shadow: 0px 2px 3px 0px black;
+  font-size: 0;
+}
+
+#screen {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 5px;
+  font-size: 35px;
+  text-align: right;
+  direction: ltr;
+  outline: none;
+  border: none;
+  background-color: #0e0e52;
+  color: white;
+}
+
+.btn {
+  box-sizing: border-box;
+  width: 25%;
+  height: 68px;
+  outline: none;
+  border: 1px solid #669aa2;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0e0e52;
+  color: #7ec4cf;
+  transition: 0.25s ease-in-out;
+}
+
+.Sbtn {
+  box-sizing: border-box;
+  width: 25%;
+  height: 68px;
+  outline: none;
+  border: 1px solid #669aa2;
+  font-size: 20px;
+  cursor: pointer;
+  background: #068d9d;
+  color: white;
+  transition: 0.25s ease-in-out;
+}
+
+.Sbtn2 {
+  box-sizing: border-box;
+  width: 25%;
+  height: 68px;
+  outline: none;
+  border: 1px solid #669aa2;
+  font-size: 20px;
+  cursor: pointer;
+  background: rgb(229, 58, 11);
+  color: white;
+  transition: 0.25s ease-in-out;
+}
+
+.Sbtn2:hover{
+  background: rgb(172, 42, 7);
+}
+
+.btn:hover {
+  background: rgb(8, 3, 44);
+}
+
+.Sbtn:hover {
+  background: #056e79;
+}
+
+@media (max-width: 768px) {
+  .calculator {
+    width: 300px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
